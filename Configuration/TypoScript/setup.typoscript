@@ -1,0 +1,25 @@
+##########################################################
+#### Include frontendRendering depending on page type ####
+##########################################################
+[globalVar = TSFE:type = {$config.headless.type.fluid_styled_content}]
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:headless_mixedmode/Configuration/TypoScript/Includes/fluid_styled_content.typoscript">
+[global]
+
+[globalVar = TSFE:type = {$config.headless.type.headless_menu}]
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:headless_mixedmode/Configuration/TypoScript/Includes/headless.typoscript">
+[global]
+
+[globalVar = TSFE:type = {$config.headless.type.headless}]
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:headless_mixedmode/Configuration/TypoScript/Includes/headless.typoscript">
+[global]
+
+[globalVar = TSFE:type = {$config.headless.type.headless}]
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:headless_mixedmode/Configuration/TypoScript/Headless/flexform_content.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:headless_mixedmode/Configuration/TypoScript/Headless/list_content.typoscript">
+[global]
+
+# page needs to be global
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:headless_mixedmode/Configuration/TypoScript/Pages/headless.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:headless_mixedmode/Configuration/TypoScript/Pages/headless_menu.typoscript">
+
+

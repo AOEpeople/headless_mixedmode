@@ -1,0 +1,8 @@
+# pass plugins to content
+tt_content.list.fields.content.dataProcessing {
+    10 = Aoe\HeadlessMixedmode\Frontend\DataProcessing\ListTypeProcessor
+    10 {
+        listConfig =< tt_content.list.20
+        as = content
+    }
+}

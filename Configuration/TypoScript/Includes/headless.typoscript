@@ -1,0 +1,3 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:headless/Configuration/TypoScript/Helper/" extensions="typoscript">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:headless/Configuration/TypoScript/ContentElement/" extensions="typoscript">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:headless/Configuration/TypoScript/Configuration/" extensions="typoscript">

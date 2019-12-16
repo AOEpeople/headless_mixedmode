@@ -1,0 +1,6 @@
+# cat=plugin.tx_headless_mixed/type; type=int; label=page typeNum for fluid_styled_content
+config.headless.type.fluid_styled_content = 0
+# cat=plugin.tx_headless_mixed/type; type=int; label=page typeNum for headless
+config.headless.type.headless = 9
+# cat=plugin.tx_headless_mixed/type; type=int; label=page typeNum for headless menu
+config.headless.type.headless_menu = 834

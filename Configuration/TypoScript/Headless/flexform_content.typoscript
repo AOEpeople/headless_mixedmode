@@ -1,0 +1,10 @@
+# add flexform output for custom content elements
+lib.contentElement.fields.flexForm = JSON
+lib.contentElement.fields.flexForm {
+    dataProcessing {
+        10 = Aoe\HeadlessMixedmode\Frontend\DataProcessing\FlexFormProcessor
+        10 {
+            as = pi_flexform
+        }
+    }
+}

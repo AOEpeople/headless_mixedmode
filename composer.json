@@ -1,0 +1,23 @@
+{
+  "name": "aoe/headless-mixedmode",
+  "type": "typo3-cms-extension",
+  "description": "Mix headless and fluid_styled_content inside of one page tree",
+  "authors": [
+    {
+      "name": "AOE GmbH",
+      "email": "dev@aoe.com"
+    }
+  ],
+  "require": {
+    "friendsoftypo3/headless": "^2.0",
+    "typo3/cms-fluid-styled-content": "^9.5"
+  },
+  "suggest": {
+    "helhum/typoscript-rendering": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aoe\\HeadlessMixedmode\\": "Classes/"
+    }
+  }
+}

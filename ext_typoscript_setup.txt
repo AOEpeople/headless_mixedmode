@@ -1,0 +1,6 @@
+# Disable dce mangling
+tt_content.stdWrap.innerWrap.cObject.default.stdWrap.if >
+tt_content.stdWrap.innerWrap.cObject.default.stdWrap >
+tt_content.stdWrap.innerWrap.cObject.default >
+tt_content.stdWrap.innerWrap.cObject >
+tt_content.stdWrap.innerWrap >
